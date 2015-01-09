@@ -35,7 +35,7 @@ The collection that store the users has the following structure:
 * Set the Realm in your Context configuration like the one below:
 ```xml
     <Context docBase="/path/to/application">
-        <Realm className="realm.BaseXRealm"
+        <Realm className="sahli.michel.realm.BaseXRealm"
             basexHost="BASEX_IP_ADDRESS"
             basexPort="BASEX_PORT"
             basexUsername="BASEX_USERNAME"
