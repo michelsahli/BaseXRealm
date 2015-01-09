@@ -3,7 +3,7 @@ BaseXRealm
 
 A custom realm for Tomcat where user can be stored in a BaseX collection
 
-## Installation
+### Installation
 
 1. Download the project from my Github account
 
@@ -55,3 +55,7 @@ DIGEST_ENCODING: Name of the used encoding for the password hasing ex. utf-8
 You don't need to set it if you store your passwords in plain text
 
 After these steps you can now log in with the user that are stored in a BaseX Database
+
+### License
+
+BaseXRealm is licensed under the [MIT license.](https://github.com/michelsahli/BaseXRealm/blob/master/LICENSE)
