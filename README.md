@@ -33,16 +33,16 @@ ROLE_*: Name of the role the user has
 
 6. Set the Realm in your Context configuration like the one below:
 
-<Context docBase="/path/to/application">
-    <Realm className="realm.BaseXRealm"
-        basexHost="BASEX_IP_ADDRESS"
-        basexPort="BASEX_PORT"
-        basexUsername="BASEX_USERNAME"
-        basexPassword="BASEX_PASSWORD"
-        basexUserDbName="BASEX_USER_DATABASE_NAME"
-        digest="DIGEST"
-        digestEncoding="DIGEST_ENCODING"/>
-</Context>
+    <Context docBase="/path/to/application">
+        <Realm className="realm.BaseXRealm"
+            basexHost="BASEX_IP_ADDRESS"
+            basexPort="BASEX_PORT"
+            basexUsername="BASEX_USERNAME"
+            basexPassword="BASEX_PASSWORD"
+            basexUserDbName="BASEX_USER_DATABASE_NAME"
+            digest="DIGEST"
+            digestEncoding="DIGEST_ENCODING"/>
+    </Context>
 
 BASEX_IP_ADDRESS: IP address of the BaseX server ex. 127.0.0.1
 BASEX_PORT: Port number of the BaseX server ex. 1984(default)
