@@ -25,11 +25,11 @@ The collection that store the users has the following structure:
             <role>ROLE_2</role>
         </roles>
     </user>
-```
-USERNAME: Username to log in as user<br/>
-PASSWORD: Password to log in as user<br/>
-SALT: Unique salt used to hash the password<br/>
-ROLE_*: Name of the role the user has<br/>
+``
+<b>USERNAME:</b> Username to log in as user<br/>
+<b>PASSWORD:</b> Password to log in as user<br/>
+<b>SALT:</b> Unique salt used to hash the password<br/>
+<b>ROLE_*:</b> Name of the role the user has<br/>
 
 6. Set the Realm in your Context configuration like the one below:
 ```xml
@@ -45,14 +45,14 @@ ROLE_*: Name of the role the user has<br/>
     </Context>
 ```
 
-BASEX_IP_ADDRESS: IP address of the BaseX server ex. 127.0.0.1<br/>
-BASEX_PORT: Port number of the BaseX server ex. 1984(default)<br/>
-BASEX_USERNAME: Username to log into the BaseX server ex. admin(default)<br/>
-BASEX_PASSWORD: Password to log into the BaseX server ex. admin(default)<br/>
-BASEX_USER_DATABASE_NAME : Name of the BaseX database that store the users ex. user_security<br/>
-DIGEST: Name of the used digest to hash the password ex. sha-512(recommended)<br/>
+<b>BASEX_IP_ADDRESS:</b> IP address of the BaseX server ex. 127.0.0.1<br/>
+<b>BASEX_PORT:</b> Port number of the BaseX server ex. 1984(default)<br/>
+<b>BASEX_USERNAME:</b> Username to log into the BaseX server ex. admin(default)<br/>
+<b>BASEX_PASSWORD:</b> Password to log into the BaseX server ex. admin(default)<br/>
+<b>BASEX_USER_DATABASE_NAME:</b> Name of the BaseX database that store the users ex. user_security<br/>
+<b>DIGEST:</b> Name of the used digest to hash the password ex. sha-512(recommended)<br/>
 But you could simply not mention it and the password could be stored in plain text<br/>
-DIGEST_ENCODING: Name of the used encoding for the password hasing ex. utf-8 <br/>
+<b>DIGEST_ENCODING:</b> Name of the used encoding for the password hasing ex. utf-8 <br/>
 You don't need to set it if you store your passwords in plain text<br/>
 
 After these steps you can now log in with the user that are stored in a BaseX Database
