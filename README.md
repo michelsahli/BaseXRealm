@@ -25,7 +25,8 @@ The collection that store the users has the following structure:
             <role>ROLE_2</role>
         </roles>
     </user>
-``
+```
+
 <b>USERNAME:</b> Username to log in as user<br/>
 <b>PASSWORD:</b> Password to log in as user<br/>
 <b>SALT:</b> Unique salt used to hash the password<br/>
