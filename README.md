@@ -7,11 +7,12 @@ A custom realm for Tomcat where user can be stored in a BaseX collection
 
 * Download the project from my Github account
 
-* Add All JAR file from <TOMCAT_HOME>/lib/ to the Java Build Path of the project
+* Add All JAR file from %TOMCAT_HOME%/lib/ to the Java Build Path of the project
 
 * Export the project as JAR File (don't choose the Runnable JAR File) and don't export the PasswordGenerator.java, it's only used for generating the passwords.
 
-* Move the generated JAR file to <TOMCAT_HOME>/lib/.
+* Move the generated JAR file to %TOMCAT_HOME%/lib/.
+* Add [commons-logging](http://commons.apache.org/proper/commons-logging/) to %TOMCAT_HOME%/lib/.
 * Create a BaseX collection like the one below (you can use the PasswordGenerator.java to generate the salt and the hashed password)
 
 The collection that store the users has the following structure:
